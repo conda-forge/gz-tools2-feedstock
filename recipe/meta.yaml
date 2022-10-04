@@ -64,6 +64,7 @@ about:
   summary: 'Command line tools for the Gazebo libraries.'
 
 extra:
+  feedstock-name: {{ repo_name }}
   recipe-maintainers:
     - wolfv
     - traversaro
