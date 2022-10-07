@@ -59,6 +59,7 @@ outputs:
         - test -f ${PREFIX}/lib/cmake/{{ name }}-all/{{ name }}-all-config.cmake  # [not win]
         - if not exist %PREFIX%\\Library\\lib\\cmake\\{{ name }}-all\\{{ name }}-all-config.cmake exit 1  # [win]
 
+
 about:
   home: https://github.com/gazebosim/gz-tools
   license: Apache-2.0
