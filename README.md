@@ -104,10 +104,17 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>win_64</td>
+              <td>win_64_ruby2.5</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17566&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gz-tools2-feedstock?branchName=main&jobName=win&configuration=win_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gz-tools2-feedstock?branchName=main&jobName=win&configuration=win_64_ruby2.5" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>win_64_ruby2.6</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17566&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gz-tools2-feedstock?branchName=main&jobName=win&configuration=win_64_ruby2.6" alt="variant">
                 </a>
               </td>
             </tr>
