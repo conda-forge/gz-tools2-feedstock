@@ -39,11 +39,11 @@ outputs:
       host:
         - libgz-cmake3
         - backward-cpp
-        - ruby # [not win]
-        - ruby 3.1 # [win]
+        - ruby  # [not win]
+        - ruby 3.1  # [win]
       run:
-        - ruby # [not win]
-        - ruby 3.1 # [win]
+        - ruby  # [not win]
+        - ruby 3.1  # [win]
         - elfutils                           # [linux]
     test:
       commands:
