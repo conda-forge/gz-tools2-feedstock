@@ -42,8 +42,7 @@ outputs:
         - ruby  # [not win]
         - ruby 3.1  # [win]
       run:
-        - ruby  # [not win]
-        - ruby 3.1  # [win]
+        - ruby
         - elfutils                           # [linux]
     test:
       commands:
