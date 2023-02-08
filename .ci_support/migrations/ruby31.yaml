@@ -5,3 +5,4 @@ __migrator:
 migrator_ts: 1640959655.701557
 ruby:
 - '3.1'
+- '2.6'  # [not win]
