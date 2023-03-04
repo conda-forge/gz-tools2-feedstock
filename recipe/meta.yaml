@@ -15,10 +15,10 @@ source:
   - url: https://github.com/gazebosim/{{ repo_name }}/archive/{{ repo_name }}{{ version }}.tar.gz
     sha256: 5e3788d5a1d5fa40724f1484cda716e0c050f01d2c516efa9f8a00877e74ef64
     patches:
-      - fix_backward_install.patch 
+      - fix_backward_install.patch
 
 build:
-  number: 3
+  number: 4
 
 outputs:
   - name: {{ cxx_name }}
@@ -66,7 +66,7 @@ about:
   home: https://github.com/gazebosim/gz-tools
   license: Apache-2.0
   license_file: LICENSE
-  summary: 'Command line tools for the Gazebo libraries.'
+  summary: Command line tools for the Gazebo libraries.
 
 extra:
   feedstock-name: {{ repo_name }}
