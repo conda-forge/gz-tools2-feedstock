@@ -40,7 +40,7 @@ outputs:
         - libgz-cmake3
         - backward-cpp
         - ruby  # [not win]
-        - ruby 3.1  # [win]
+        - ruby 3.1  # [win or (osx and arm64)]
       run:
         - ruby
         - elfutils                           # [linux]
