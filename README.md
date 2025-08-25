@@ -27,59 +27,31 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_ruby2.6</td>
+              <td>linux_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17566&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gz-tools2-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_ruby2.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gz-tools2-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_ruby3.1</td>
+              <td>linux_aarch64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17566&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gz-tools2-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_ruby3.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gz-tools2-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_ruby2.6</td>
+              <td>linux_ppc64le</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17566&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gz-tools2-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_ruby2.6" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gz-tools2-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_ruby3.1</td>
+              <td>osx_64</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17566&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gz-tools2-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_ruby3.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_ruby2.6</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17566&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gz-tools2-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_ruby2.6" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_ppc64le_ruby3.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17566&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gz-tools2-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_ruby3.1" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_ruby2.6</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17566&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gz-tools2-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_ruby2.6" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_ruby3.1</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=17566&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gz-tools2-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_ruby3.1" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/gz-tools2-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -229,7 +201,4 @@ Feedstock Maintainers
 * [@j-rivero](https://github.com/j-rivero/)
 * [@traversaro](https://github.com/traversaro/)
 * [@wolfv](https://github.com/wolfv/)
-
-
-<!-- dummy commit to enable rerendering -->
 
