@@ -1,6 +1,6 @@
 {% set component_name = "tools" %}
 {% set repo_name = "gz-" + component_name %}
-{% set version = "2.0.1" %}
+{% set version = "2.0.3" %}
 {% set major_version = version.split('.')[0] %}
 {% set name = repo_name + major_version %}
 {% set component_version = component_name + major_version %}
@@ -12,7 +12,7 @@ package:
 
 source:
   - url: https://github.com/gazebosim/{{ repo_name }}/archive/{{ repo_name }}{{ major_version }}_{{ version }}.tar.gz
-    sha256: 93c1f6e91ae82671d66b55929aff07f89df7ac20182d8bca44a2f7204792725c
+    sha256: 1ad95ad989bf986ea1fcd76be6d25b5d08199aa0363073606ff2afc7d62e1c6c
     patches:
       - fix_backward_install.patch
 
