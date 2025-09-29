@@ -81,7 +81,9 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-gz--tools-green.svg)](https://anaconda.org/conda-forge/gz-tools) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/gz-tools.svg)](https://anaconda.org/conda-forge/gz-tools) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/gz-tools.svg)](https://anaconda.org/conda-forge/gz-tools) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/gz-tools.svg)](https://anaconda.org/conda-forge/gz-tools) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-gz--tools2-green.svg)](https://anaconda.org/conda-forge/gz-tools2) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/gz-tools2.svg)](https://anaconda.org/conda-forge/gz-tools2) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/gz-tools2.svg)](https://anaconda.org/conda-forge/gz-tools2) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/gz-tools2.svg)](https://anaconda.org/conda-forge/gz-tools2) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-libgz--tools-green.svg)](https://anaconda.org/conda-forge/libgz-tools) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libgz-tools.svg)](https://anaconda.org/conda-forge/libgz-tools) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libgz-tools.svg)](https://anaconda.org/conda-forge/libgz-tools) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libgz-tools.svg)](https://anaconda.org/conda-forge/libgz-tools) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-libgz--tools2-green.svg)](https://anaconda.org/conda-forge/libgz-tools2) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libgz-tools2.svg)](https://anaconda.org/conda-forge/libgz-tools2) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libgz-tools2.svg)](https://anaconda.org/conda-forge/libgz-tools2) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libgz-tools2.svg)](https://anaconda.org/conda-forge/libgz-tools2) |
 
 Installing gz-tools
@@ -94,41 +96,41 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `gz-tools2, libgz-tools2` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `gz-tools, gz-tools2, libgz-tools, libgz-tools2` can be installed with `conda`:
 
 ```
-conda install gz-tools2 libgz-tools2
-```
-
-or with `mamba`:
-
-```
-mamba install gz-tools2 libgz-tools2
-```
-
-It is possible to list all of the versions of `gz-tools2` available on your platform with `conda`:
-
-```
-conda search gz-tools2 --channel conda-forge
+conda install gz-tools gz-tools2 libgz-tools libgz-tools2
 ```
 
 or with `mamba`:
 
 ```
-mamba search gz-tools2 --channel conda-forge
+mamba install gz-tools gz-tools2 libgz-tools libgz-tools2
+```
+
+It is possible to list all of the versions of `gz-tools` available on your platform with `conda`:
+
+```
+conda search gz-tools --channel conda-forge
+```
+
+or with `mamba`:
+
+```
+mamba search gz-tools --channel conda-forge
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search gz-tools2 --channel conda-forge
+mamba repoquery search gz-tools --channel conda-forge
 
-# List packages depending on `gz-tools2`:
-mamba repoquery whoneeds gz-tools2 --channel conda-forge
+# List packages depending on `gz-tools`:
+mamba repoquery whoneeds gz-tools --channel conda-forge
 
-# List dependencies of `gz-tools2`:
-mamba repoquery depends gz-tools2 --channel conda-forge
+# List dependencies of `gz-tools`:
+mamba repoquery depends gz-tools --channel conda-forge
 ```
 
 
